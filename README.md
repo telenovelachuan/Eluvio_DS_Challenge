@@ -24,7 +24,7 @@ A data science project on the news title headline dataset to explore title featu
 	- Discussions on the topic of "global warming" piked in 2013, and the topic gets more attention afterwards than before 2013.
 
 
-# LSA & LDA Modeling
+# Topic Modeling
 Use LSA & LDA model to cluster and generate yearly topics for each year. 
 
 1. Sampling the dataset with a sample rate of 0.05.
