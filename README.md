@@ -1,6 +1,6 @@
 A data science project on the news title headline dataset to explore title feature information and discover yearly topics using natural language processing models.
 
-# Feature explorative ideas
+# Feature exploring
 
 1. Aggregation
 
@@ -48,6 +48,21 @@ Use LSA & LDA model to cluster and generate yearly topics for each year.
 	- LDA performs better: the clusters are distributed more aggregatively and recognizably, and with less overlap
 9. Apply LDA model to the entire dataset.
 	- use Dask library to handle and lazy load the big dataset input.
-	- due to the resource limit of my computer, I sampled 15% of the entire dataset
+	- due to the resource limit of my computer, a sample rate of 0.15 is applied on the entire dataset
 10. Generate yearly topic clusters using LDA. The final yearly topics are:
+	- 2008: ['death', '000', 'uk', 'police', 'pakistan', 'israel', 'world', 'iran', 'war', 'china']
+	- 2009: ['israel', 'afghanistan', 'iran', 'pirates', 'pakistan', 'gaza', 'war', 'fl', 'korea', 'obama']
+	- 2010: ['war', 'haiti', 'assange', 'israel', 'israel', 'afghanistan', 'police', 'iran', 'wikileaks', 'china']
+	- 2011: ['news', 'police', 'mexico', 'rights', 'nuclear', 'new', 'al', 'libya', 'syria', 'libyan']
+	- 2012: ['israel', 'syria', 'world', 'nuclear', 'government', 'syrian', 'news', 'china', 'iran', 'china']
+	- 2013: ['police', 'news', 'egypt', 'iran', 'india', 'year', 'syria', 'syria', 'minister', 'korea']
+	- 2014: ['year', 'russia', 'world', 'ebola', 'syria', 'missing', 'north', 'police', 'ukraine', 'china']
+	- 2015: ['saudi', 'india', 'korea', 'china', 'russia', 'state', 'year', 'iran', 'new', 'russian']
+	- 2016: ['saudi', 'syria', 'state', 'attack', 'uk', 'china', 'china', 'korea', 'world', '000']
 	
+	
+# Language & libraries used:
+- Python & Numpy for basic data manipulation
+- dask for handling & lazy loading big dataset
+- sklearn, nltk and gensim for topic modeling
+- matplotlib and seaborn for visualization
