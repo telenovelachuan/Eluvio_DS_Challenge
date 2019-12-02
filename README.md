@@ -63,10 +63,14 @@ Use LSA & LDA model to cluster and generate yearly topics for each year.
 	
 # Language & libraries used:
 - Python & Numpy
+
 	for basic data manipulation
 - dask
+
 	for handling & lazy loading big dataset
 - sklearn, nltk and gensim
+
 	for topic modeling
 - matplotlib and seaborn
+
 	for visualization
