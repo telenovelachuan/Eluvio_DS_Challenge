@@ -13,12 +13,12 @@ A data science project on the news title headline dataset to explore title featu
 - title word cloud for 2008
 - What's happening on China in 2008
 
-It can be inferred that the 2008 Olympic Games in China(Beijing) and the gigantic earthquake topped the focus in 2008.
+	- It can be inferred that the 2008 Olympic Games in China(Beijing) and the gigantic earthquake topped the focus in 2008.
 
 - title word cloud for 2016
 
-While in 2016, news in China focused its attention on south sea affairs and space exploration progress.
+	- While in 2016, news in China focused its attention on south sea affairs and space exploration progress.
 
 - trend of mentions on global warming 
 
-Discussions on the topic of "global warming" piked in 2013, and the topic gets more attention afterwards than before 2013.
+	- Discussions on the topic of "global warming" piked in 2013, and the topic gets more attention afterwards than before 2013.
